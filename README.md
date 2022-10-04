@@ -3,16 +3,15 @@ This is a droidcam client for arm64 raspberry pi cli version. I compile the sour
 
 Install the following dependencies
 (the package names are for Debian based systems, adjust as needed for other distros)
-```
-libavutil-dev
-libswscale-dev
-libasound2-dev
-libspeex-dev
-libusbmuxd-dev
-libplist-dev
 
-gtk+-3.0               # Only needed for GUI client
-libappindicator3-dev   # Only needed for GUI client^^
+
+```
+sudo apt install libavutil-dev libswscale-dev libasound2-dev libspeex-dev libusbmuxd-dev libplist-dev
+
+```
+For droidcam-gui only =>
+```
+sudo apt install gtk+-3.0 libappindicator3-dev
 
 ```
 
