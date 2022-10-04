@@ -11,7 +11,7 @@ sudo apt install libavutil-dev libswscale-dev libasound2-dev libspeex-dev libusb
 ```
 For droidcam-gui only =>
 ```
-sudo apt install gtk+-3.0 libappindicator3-dev
+sudo apt install libgtk-3-dev libappindicator3-dev
 
 ```
 
