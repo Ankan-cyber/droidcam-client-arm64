@@ -14,5 +14,6 @@ For droidcam-gui only =>
 sudo apt install libgtk-3-dev libappindicator3-dev
 
 ```
+if you want mic access follow [this repo](https://github.com/umlaeute/v4l2loopback)
 
 run ./droidcam-cli <ip> <port>, instead of <ip> and <port> type data shown on your phone
